@@ -29,7 +29,6 @@ budgetBtn.addEventListener('click', (e) => {
     } else {
         errorMessage.classList.add('show-message');
         message.textContent = "Please enter the budget amount!";
-        // console.log(errorMessage.classList.contains('show-message'))
         setTimeout(() => {
             errorMessage.classList.remove('show-message');
         }, 5000);
