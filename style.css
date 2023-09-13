@@ -22,6 +22,43 @@ body {
     margin: 44px auto;
 }
 
+.header{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-box{
+    padding: 10px 16px;
+    background-color: #ffbebe;
+    border-radius: 10px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+
+span.message{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.close-btn{
+    margin-left: 6px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 50%;
+}
+
+.show-message{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+
 .section-one {
     display: flex;
     justify-content: space-between;
